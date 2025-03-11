@@ -67,7 +67,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title(emoji.emojize(":thinking_face: Number Guessing Game"))
+st.title("🤔 Number Guessing Game")
 st.subheader("Guess the number based on the selected difficulty!")
 
 # Difficulty selection
