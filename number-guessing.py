@@ -1,6 +1,5 @@
 import random
 import streamlit as st
-import emoji
 
 # Initialize session state
 if 'number' not in st.session_state:
