@@ -104,3 +104,5 @@ st.markdown(f"**⏳ Remaining Attempts: {st.session_state.remaining_attempts}**"
 # Reset button to start a new game
 if st.button("🔄 Reset Game"):
     set_difficulty(st.session_state.difficulty)
+# Footer
+st.markdown("<br><hr><center>Made with ❤️ by Rameen Rashid</center>", unsafe_allow_html=True)
